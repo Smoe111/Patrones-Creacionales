@@ -3,24 +3,27 @@ package Patron_Prototype;
 public class PruebasPrototype {
     public static void main(String[] args) {
 
-        Prototype prototype1= new PrototipoConcreto("Prototipo1");
-        Prototype prototype2= new PrototipoConcreto("Prototipo1");
+    // Crear instancia de prototipo
+
+        Prototype prototypePersona1= new Persona("Sebas",20);
+    
+    // Registro de prototipos   
 
         RegistroPrototype registroPrototype= new RegistroPrototype();
-        registroPrototype.addPrototype("Prototipo1",prototype1);
-        registroPrototype.addPrototype("Prototipo2",prototype2);        
+        registroPrototype.addPrototype("Persona 1",prototypePersona1);
+               
         
-    
-        Prototype prototypeClonado1= registroPrototype.getPrototype("prototipo1");
-        Prototype prototypeClonado2= registroPrototype.getPrototype("prototipo2");
-    
-        if(prototypeClonado1!= null && prototypeClonado2 !=null){
+    // Obtener clones del registro
 
-            System.out.println("Copia Protoripo 1: " + prototypeClonado1.getName());
-            System.out.println("copia protoripo 2: " + prototypeClonado2.getName());
+        Prototype prototypeClonado1= registroPrototype.getPrototype("Persona1");
+        
+    // Verificar que el clon es diferente al original
+
+        if(prototypeClonado1!= null){
+            System.out.println("Copia persona 1: " + prototypeClonado1.getName() + ", Age: " + prototypeClonado1.getAge());
         }
         else{
-            System.out.println("No se pudieron clonar los prototipos");
+            System.out.println("No se pudo clonar la persona");
         }        
     }
 }
