@@ -5,7 +5,7 @@ public class PruebasPrototype {
 
     // Crear instancia de prototipo
 
-        Prototype prototypePersona1= new Persona("Sebas",20);
+        Prototype prototypePersona1= new Persona("Sebas",20,10515616516);
     
     // Registro de prototipos   
 

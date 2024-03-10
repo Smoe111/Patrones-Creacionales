@@ -4,10 +4,12 @@ public class Persona implements Prototype {
 
     String name;
     int age;
+    double documento;
     
-    public Persona(String name, int age) {
+    public Persona(String name, int age, double documento) {
         this.name = name;
         this.age = age;
+        this.documento= documento;
     }
 
     @Override
@@ -16,12 +18,18 @@ public class Persona implements Prototype {
     }
 
     @Override
-    public Prototype clone() {
-        return new Persona(this.name, this.age);
-    } 
+    public double getDocumento() {
+        return this.documento;
+    }
 
+
+    @Override
+    public Prototype clone() {
+        return new Persona(this.name, this.age, this.documento);
+    }
+
+    @Override
     public int getAge() {
         return this.age;
-    }
-    
+    }    
 }
