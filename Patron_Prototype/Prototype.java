@@ -4,5 +4,6 @@ interface Prototype  {
 
     Prototype clone();
     String getName();
-    int getAge();    
+    int getAge();
+    String getDocumento();    
 }

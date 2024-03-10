@@ -4,9 +4,9 @@ public class Persona implements Prototype {
 
     String name;
     int age;
-    double documento;
+    String documento;
     
-    public Persona(String name, int age, double documento) {
+    public Persona(String name, int age, String documento) {
         this.name = name;
         this.age = age;
         this.documento= documento;
@@ -18,7 +18,7 @@ public class Persona implements Prototype {
     }
 
     @Override
-    public double getDocumento() {
+    public String getDocumento() {
         return this.documento;
     }
 
