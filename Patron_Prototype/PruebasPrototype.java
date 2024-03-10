@@ -20,7 +20,7 @@ public class PruebasPrototype {
     // Verificar que el clon es diferente al original
 
         if(prototypeClonado1!= null){
-            System.out.println("Copia persona 1: " + prototypeClonado1.getName() + ", Age: " + prototypeClonado1.getAge());
+            System.out.println("Copia persona 1: " + prototypeClonado1.getName() + ", Age: " + prototypeClonado1.getAge() + ", documento: " + prototypeClonado1.getDocumento());
         }
         else{
             System.out.println("No se pudo clonar la persona");
