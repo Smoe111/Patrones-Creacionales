@@ -7,16 +7,17 @@ class PrototipoConcreto implements Prototype {
     public PrototipoConcreto(String name){
         this.name = name;
     }
- 
+     
+   
     @Override
     public Prototype clone(){
         return new PrototipoConcreto(this.name);
+    }
+
+
+    @Override
+    public String getName() {
+        return this.name;
     }  
 
-   /* @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
-    }
-    */
 }

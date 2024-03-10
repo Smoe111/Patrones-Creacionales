@@ -1,6 +1,7 @@
 package Patron_Prototype;
 
-interface Prototype extends Cloneable {
+interface Prototype  {
 
-    Prototype clone();    
+    Prototype clone();
+    String getName();    
 }
