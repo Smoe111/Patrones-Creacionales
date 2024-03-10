@@ -1,5 +1,6 @@
-package Prototype;
+package Patron_Prototype;
 
 interface Prototype extends Cloneable {
-    
+
+    Prototype clone();    
 }
