@@ -3,7 +3,9 @@ package AbstractFactory.Juego;
 public class PersonajeHumanoFactory implements PersonajeFactory{
 
     @Override
-    public void crearPersonaje(){}
+    public Personaje crearPersonaje(){
+        return new Personajes();
+    }
         
     
 }
