@@ -1,4 +1,4 @@
-package AbstractFactory.Juego.Patron_Prototype;
+package Patron_Prototype;
 
 public class Persona implements Prototype {
 

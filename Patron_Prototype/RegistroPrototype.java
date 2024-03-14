@@ -1,4 +1,4 @@
-package AbstractFactory.Juego.Patron_Prototype;
+package Patron_Prototype;
 
 import java.util.HashMap;
 import java.util.Map;
