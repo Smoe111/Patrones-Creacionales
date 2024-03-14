@@ -3,7 +3,7 @@ package Pre_Parcial1.Constructores;
 import java.util.ArrayList;
 import java.util.List;
 
-import Pre_Parcial1.Constructores.Modelos.Plato;
+import Pre_Parcial1.Modelos.Plato;
 
 public class ConstructorPizzeria implements Platobuilder{
 

@@ -1,7 +1,7 @@
 package Pre_Parcial1.Factory;
 
-import Pre_Parcial1.Constructores.Modelos.Cafeteria;
-import Pre_Parcial1.Constructores.Modelos.Restaurante;
+import Pre_Parcial1.Modelos.Cafeteria;
+import Pre_Parcial1.Modelos.Restaurante;
 
 public class CafeteriasFactory implements RestauranteFactory{
 

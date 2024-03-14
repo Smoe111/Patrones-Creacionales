@@ -1,7 +1,7 @@
 package Pre_Parcial1.Factory;
 
-import Pre_Parcial1.Constructores.Modelos.Restaurante;
-import Pre_Parcial1.Constructores.Modelos.Sushi;
+import Pre_Parcial1.Modelos.Restaurante;
+import Pre_Parcial1.Modelos.Sushi;
 
 public class SushiFactory implements RestauranteFactory {
     private String comida;

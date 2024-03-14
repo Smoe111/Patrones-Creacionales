@@ -1,4 +1,4 @@
-package Pre_Parcial1.Constructores.Modelos;
+package Pre_Parcial1.Modelos;
 
 public class Pizzeria implements Restaurante {
     private String comida;

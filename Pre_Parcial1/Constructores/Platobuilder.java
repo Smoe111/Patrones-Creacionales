@@ -2,7 +2,7 @@ package Pre_Parcial1.Constructores;
 
 import java.util.List;
 
-import Pre_Parcial1.Constructores.Modelos.Plato;
+import Pre_Parcial1.Modelos.Plato;
 
 public interface Platobuilder {
     void comida(List<String> comida);
