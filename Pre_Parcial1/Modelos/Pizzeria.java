@@ -1,10 +1,12 @@
 package Pre_Parcial1.Modelos;
 
-public class Pizzeria implements Restaurante {
-    private String comida;
-    private String bebida;
+import java.util.List;
 
-    public  Pizzeria(String comida, String bebida){
+public class Pizzeria implements Restaurante {
+    private List<String> comida;
+    private List<String> bebida;
+
+    public  Pizzeria(List<String> comida, List<String> bebida){
         this.comida=comida;
         this.bebida= bebida;
     }
@@ -13,5 +15,7 @@ public class Pizzeria implements Restaurante {
     public void mostrarInformacion() {
        System.out.println("Plato: " + comida + "Bebida: " + bebida );
     }
+
+    
     
 }

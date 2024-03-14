@@ -2,6 +2,7 @@ package Pre_Parcial1.Modelos;
 
 import java.util.ArrayList;
 import java.util.List;
+import Pre_Parcial1.Constructores.PlatoDirector;
 
 public class Menu {
     List<Plato> listaPlatos;
@@ -15,7 +16,7 @@ public class Menu {
 
         Pizzeria builder= new Pizzeria();
         director= new PlatoDirector(builder);
-        director.Construct(comida, bebida);
+        director.construct(comida, bebida);
         listaPlatos.add(builder.build());
     }
     

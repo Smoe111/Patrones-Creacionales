@@ -1,15 +1,15 @@
 package Pre_Parcial1.Constructores;
 
 import java.util.List;
-
 import Pre_Parcial1.Modelos.Plato;
 
-class PlatoDirector{
+  public class PlatoDirector{
     private PlatoDirector builder;
 
     public PlatoDirector(PlatoDirector builder){
         this.builder=builder;
     }
+
 
     public Plato construct(List<String> comida, List<String> bebida){
 
@@ -32,4 +32,5 @@ class PlatoDirector{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'comida'");
     }
+
 }

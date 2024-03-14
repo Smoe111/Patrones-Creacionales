@@ -1,4 +1,4 @@
-package Patron_Prototype;
+package AbstractFactory.Juego.Patron_Prototype;
 
 public class PruebasPrototype {
     public static void main(String[] args) {

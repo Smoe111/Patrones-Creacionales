@@ -1,4 +1,4 @@
-package Patron_Prototype;
+package AbstractFactory.Juego.Patron_Prototype;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,3 +20,4 @@ class RegistroPrototype{
     }
 
 }
+        

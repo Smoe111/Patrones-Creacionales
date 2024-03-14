@@ -1,4 +1,4 @@
-package Patron_Prototype;
+package AbstractFactory.Juego.Patron_Prototype;
 
 public class Persona implements Prototype {
 
@@ -12,12 +12,12 @@ public class Persona implements Prototype {
         this.documento= documento;
     }
 
-    @Override
+    
     public String getName() {
         return this.name;
     }
 
-    @Override
+   
     public String getDocumento() {
         return this.documento;
     }
